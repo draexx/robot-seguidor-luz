@@ -1,0 +1,1424 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Fritzing (https://fritzing.org/) -->
+<netlist date="sáb. ene. 4 00:25:33 2025" sketch="Micro Robot Movil Seguidor de Luz.fzz">
+ <net>
+  <connector name="-" id="connector0">
+   <part title="Battery block 9V" label="VCC1" id="109330"/>
+  </connector>
+  <connector name="Pin 0" id="connector0">
+   <part title="10kΩ Resistor" label="R4" id="107180"/>
+  </connector>
+  <connector name="Pin 1" id="connector1">
+   <part title="10kΩ Resistor" label="R8" id="107300"/>
+  </connector>
+  <connector name="pin26I" id="pin26I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin3X" id="pin3X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin 1" id="connector1">
+   <part title="Photocell (LDR)" label="R9" id="107930"/>
+  </connector>
+  <connector name="+" id="connector1">
+   <part title="Battery block 9V" label="VCC1" id="109330"/>
+  </connector>
+  <connector name="pin26B" id="pin26B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin26H" id="pin26H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin26F" id="pin26F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin26J" id="pin26J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin26G" id="pin26G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin29X" id="pin29X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin4X" id="pin4X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin16X" id="pin16X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin10X" id="pin10X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin25X" id="pin25X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin13X" id="pin13X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin28X" id="pin28X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin9X" id="pin9X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin30X" id="pin30X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin22X" id="pin22X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin24X" id="pin24X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin19X" id="pin19X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin5X" id="pin5X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin6X" id="pin6X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin18X" id="pin18X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin31X" id="pin31X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin21X" id="pin21X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin12X" id="pin12X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin23X" id="pin23X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin15X" id="pin15X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin27X" id="pin27X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin11X" id="pin11X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin17X" id="pin17X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin7X" id="pin7X">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin26A" id="pin26A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin26D" id="pin26D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin26C" id="pin26C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin26E" id="pin26E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="C" id="connector2">
+   <part title="NPN-Transistor" label="Q3" id="174560"/>
+  </connector>
+  <connector name="pin 0" id="connector0">
+   <part title="Photocell (LDR)" label="R10" id="107960"/>
+  </connector>
+  <connector name="cathode" id="connector0">
+   <part title="Green (570nm) LED" label="LED2" id="107360"/>
+  </connector>
+  <connector name="cathode" id="connector0">
+   <part title="Red (633nm) LED" label="LED1" id="107330"/>
+  </connector>
+  <connector name="C" id="connector2">
+   <part title="NPN-Transistor" label="Q4" id="107060"/>
+  </connector>
+  <connector name="pin23G" id="pin23G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin3Y" id="pin3Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="E" id="connector0">
+   <part title="NPN-Transistor" label="Q1" id="164900"/>
+  </connector>
+  <connector name="pin14F" id="pin14F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="E" id="connector0">
+   <part title="NPN-Transistor" label="Q2" id="107000"/>
+  </connector>
+  <connector name="pin14E" id="pin14E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin23D" id="pin23D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin23F" id="pin23F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin23I" id="pin23I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin23H" id="pin23H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin23J" id="pin23J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin30Y" id="pin30Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin11Y" id="pin11Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin27Y" id="pin27Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin18Y" id="pin18Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin24Y" id="pin24Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin4Y" id="pin4Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin21Y" id="pin21Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin29Y" id="pin29Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin13Y" id="pin13Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin28Y" id="pin28Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin19Y" id="pin19Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin25Y" id="pin25Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin10Y" id="pin10Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin5Y" id="pin5Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin31Y" id="pin31Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin23Y" id="pin23Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin22Y" id="pin22Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin15Y" id="pin15Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin6Y" id="pin6Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin7Y" id="pin7Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin16Y" id="pin16Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin17Y" id="pin17Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin9Y" id="pin9Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin12Y" id="pin12Y">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin16G" id="pin16G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin14J" id="pin14J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin14H" id="pin14H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin14I" id="pin14I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin14G" id="pin14G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin16D" id="pin16D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin14A" id="pin14A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin14D" id="pin14D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin14C" id="pin14C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin14B" id="pin14B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin23E" id="pin23E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin23B" id="pin23B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin23C" id="pin23C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin23A" id="pin23A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin16H" id="pin16H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin16F" id="pin16F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin16J" id="pin16J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin16I" id="pin16I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin16C" id="pin16C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin16B" id="pin16B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin16E" id="pin16E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin16A" id="pin16A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin 1" id="connector0">
+   <part title="gear-motor" label="M3" id="109070"/>
+  </connector>
+  <connector name="pin28Z" id="pin28Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin31Z" id="pin31Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin 2" id="connector1">
+   <part title="gear-motor" label="M4" id="109100"/>
+  </connector>
+  <connector name="pin22Z" id="pin22Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin7Z" id="pin7Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin17Z" id="pin17Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin12Z" id="pin12Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin3Z" id="pin3Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin13Z" id="pin13Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin9Z" id="pin9Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin29Z" id="pin29Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin16Z" id="pin16Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin21Z" id="pin21Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin19Z" id="pin19Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin15Z" id="pin15Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin5Z" id="pin5Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin10Z" id="pin10Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin23Z" id="pin23Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin24Z" id="pin24Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin25Z" id="pin25Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin18Z" id="pin18Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin4Z" id="pin4Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin6Z" id="pin6Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin30Z" id="pin30Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin11Z" id="pin11Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin27Z" id="pin27Z">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin25W" id="pin25W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin11W" id="pin11W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin21W" id="pin21W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin13W" id="pin13W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin31W" id="pin31W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin5W" id="pin5W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin12W" id="pin12W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin17W" id="pin17W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin19W" id="pin19W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin4W" id="pin4W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin9W" id="pin9W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin30W" id="pin30W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin29W" id="pin29W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin7W" id="pin7W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin3W" id="pin3W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin10W" id="pin10W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin27W" id="pin27W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin23W" id="pin23W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin18W" id="pin18W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin15W" id="pin15W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin16W" id="pin16W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin28W" id="pin28W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin22W" id="pin22W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin24W" id="pin24W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin6W" id="pin6W">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="Pin 0" id="connector0">
+   <part title="220kΩ Resistor" label="R2" id="107120"/>
+  </connector>
+  <connector name="pin19I" id="pin19I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin19F" id="pin19F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin19H" id="pin19H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin19G" id="pin19G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin19J" id="pin19J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="E" id="connector0">
+   <part title="NPN-Transistor" label="Q3" id="174560"/>
+  </connector>
+  <connector name="Pin 0" id="connector0">
+   <part title="1kΩ Resistor" label="R1" id="107090"/>
+  </connector>
+  <connector name="pin21G" id="pin21G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin21J" id="pin21J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin21H" id="pin21H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin21I" id="pin21I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin21F" id="pin21F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="Pin 1" id="connector1">
+   <part title="1kΩ Resistor" label="R3" id="107150"/>
+  </connector>
+  <connector name="pin25H" id="pin25H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="B" id="connector1">
+   <part title="NPN-Transistor" label="Q3" id="174560"/>
+  </connector>
+  <connector name="pin25I" id="pin25I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin25J" id="pin25J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin25F" id="pin25F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin25G" id="pin25G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin22G" id="pin22G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin22J" id="pin22J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin22F" id="pin22F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin22H" id="pin22H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin22I" id="pin22I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="Pin 0" id="connector0">
+   <part title="220kΩ Resistor" label="R5" id="107210"/>
+  </connector>
+  <connector name="pin19B" id="pin19B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="E" id="connector0">
+   <part title="NPN-Transistor" label="Q4" id="107060"/>
+  </connector>
+  <connector name="pin19A" id="pin19A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin19E" id="pin19E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin19D" id="pin19D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin19C" id="pin19C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin21D" id="pin21D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin21B" id="pin21B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin21C" id="pin21C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin21E" id="pin21E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin21A" id="pin21A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="Pin 0" id="connector0">
+   <part title="1kΩ Resistor" label="R6" id="107240"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="Pin 1" id="connector1">
+   <part title="10kΩ Resistor" label="R4" id="107180"/>
+  </connector>
+  <connector name="pin30I" id="pin30I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="Pin 0" id="connector0">
+   <part title="1kΩ Resistor" label="R3" id="107150"/>
+  </connector>
+  <connector name="pin30F" id="pin30F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin30G" id="pin30G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin30H" id="pin30H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin30J" id="pin30J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin29H" id="pin29H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin29J" id="pin29J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin29G" id="pin29G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin29I" id="pin29I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin29F" id="pin29F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin 1" id="connector1">
+   <part title="Photocell (LDR)" label="R10" id="107960"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="Pin 0" id="connector0">
+   <part title="1kΩ Resistor" label="R7" id="107270"/>
+  </connector>
+  <connector name="pin29C" id="pin29C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="Pin 0" id="connector0">
+   <part title="10kΩ Resistor" label="R8" id="107300"/>
+  </connector>
+  <connector name="pin29A" id="pin29A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin29D" id="pin29D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin29E" id="pin29E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin29B" id="pin29B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin30B" id="pin30B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin 0" id="connector0">
+   <part title="Photocell (LDR)" label="R9" id="107930"/>
+  </connector>
+  <connector name="pin30E" id="pin30E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin30C" id="pin30C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin30D" id="pin30D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin30A" id="pin30A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin 1" id="connector0">
+   <part title="gear-motor" label="M4" id="109100"/>
+  </connector>
+  <connector name="C" id="connector2">
+   <part title="NPN-Transistor" label="Q2" id="107000"/>
+  </connector>
+  <connector name="pin18D" id="pin18D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin18E" id="pin18E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin18C" id="pin18C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin18B" id="pin18B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin18A" id="pin18A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="anode" id="connector1">
+   <part title="Red (633nm) LED" label="LED1" id="107330"/>
+  </connector>
+  <connector name="pin15E" id="pin15E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="Pin 1" id="connector1">
+   <part title="220kΩ Resistor" label="R5" id="107210"/>
+  </connector>
+  <connector name="pin15D" id="pin15D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin15A" id="pin15A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin15C" id="pin15C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin15B" id="pin15B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="Pin 1" id="connector1">
+   <part title="1kΩ Resistor" label="R7" id="107270"/>
+  </connector>
+  <connector name="pin25C" id="pin25C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="B" id="connector1">
+   <part title="NPN-Transistor" label="Q4" id="107060"/>
+  </connector>
+  <connector name="pin25D" id="pin25D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin25B" id="pin25B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin25A" id="pin25A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin25E" id="pin25E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin22D" id="pin22D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin22B" id="pin22B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin22C" id="pin22C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin22A" id="pin22A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin22E" id="pin22E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="anode" id="connector1">
+   <part title="Green (570nm) LED" label="LED2" id="107360"/>
+  </connector>
+  <connector name="pin15F" id="pin15F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="Pin 1" id="connector1">
+   <part title="220kΩ Resistor" label="R2" id="107120"/>
+  </connector>
+  <connector name="pin15G" id="pin15G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin15J" id="pin15J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin15H" id="pin15H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin15I" id="pin15I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin 2" id="connector1">
+   <part title="gear-motor" label="M3" id="109070"/>
+  </connector>
+  <connector name="C" id="connector2">
+   <part title="NPN-Transistor" label="Q1" id="164900"/>
+  </connector>
+  <connector name="pin18G" id="pin18G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin18I" id="pin18I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin18J" id="pin18J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin18H" id="pin18H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin18F" id="pin18F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="Pin 1" id="connector1">
+   <part title="1kΩ Resistor" label="R1" id="107090"/>
+  </connector>
+  <connector name="pin17H" id="pin17H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="B" id="connector1">
+   <part title="NPN-Transistor" label="Q1" id="164900"/>
+  </connector>
+  <connector name="pin17J" id="pin17J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin17F" id="pin17F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin17I" id="pin17I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin17G" id="pin17G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="Pin 1" id="connector1">
+   <part title="1kΩ Resistor" label="R6" id="107240"/>
+  </connector>
+  <connector name="pin17C" id="pin17C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin17E" id="pin17E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin17B" id="pin17B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin17A" id="pin17A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin17D" id="pin17D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="B" id="connector1">
+   <part title="NPN-Transistor" label="Q2" id="107000"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin2A" id="pin2A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin2E" id="pin2E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin2B" id="pin2B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin2D" id="pin2D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin2C" id="pin2C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin13H" id="pin13H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin13J" id="pin13J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin13I" id="pin13I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin13F" id="pin13F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin13G" id="pin13G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin3I" id="pin3I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin3J" id="pin3J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin3F" id="pin3F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin3H" id="pin3H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin3G" id="pin3G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin7F" id="pin7F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin7I" id="pin7I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin7G" id="pin7G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin7J" id="pin7J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin7H" id="pin7H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin7E" id="pin7E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin7A" id="pin7A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin7C" id="pin7C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin7B" id="pin7B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin7D" id="pin7D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin9J" id="pin9J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin9H" id="pin9H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin9G" id="pin9G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin9F" id="pin9F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin9I" id="pin9I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin6B" id="pin6B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin6A" id="pin6A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin6C" id="pin6C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin6D" id="pin6D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin6E" id="pin6E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin28C" id="pin28C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin28B" id="pin28B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin28D" id="pin28D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin28E" id="pin28E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin28A" id="pin28A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin8F" id="pin8F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin8G" id="pin8G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin8H" id="pin8H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin8I" id="pin8I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin8J" id="pin8J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin10J" id="pin10J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin10H" id="pin10H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin10I" id="pin10I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin10F" id="pin10F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin10G" id="pin10G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin1G" id="pin1G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin1J" id="pin1J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin1H" id="pin1H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin1F" id="pin1F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin1I" id="pin1I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin5H" id="pin5H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin5F" id="pin5F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin5J" id="pin5J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin5G" id="pin5G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin5I" id="pin5I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin11B" id="pin11B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin11A" id="pin11A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin11D" id="pin11D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin11E" id="pin11E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin11C" id="pin11C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin27I" id="pin27I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin27H" id="pin27H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin27F" id="pin27F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin27J" id="pin27J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin27G" id="pin27G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin6J" id="pin6J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin6G" id="pin6G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin6F" id="pin6F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin6H" id="pin6H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin6I" id="pin6I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin5B" id="pin5B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin5C" id="pin5C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin5D" id="pin5D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin5A" id="pin5A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin5E" id="pin5E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin28H" id="pin28H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin28J" id="pin28J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin28F" id="pin28F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin28I" id="pin28I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin28G" id="pin28G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin4D" id="pin4D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin4E" id="pin4E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin4B" id="pin4B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin4C" id="pin4C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin4A" id="pin4A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin20E" id="pin20E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin20B" id="pin20B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin20C" id="pin20C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin20A" id="pin20A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin20D" id="pin20D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin2G" id="pin2G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin2H" id="pin2H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin2J" id="pin2J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin2F" id="pin2F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin2I" id="pin2I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin1A" id="pin1A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin1D" id="pin1D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin1B" id="pin1B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin1E" id="pin1E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin1C" id="pin1C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin3B" id="pin3B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin3E" id="pin3E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin3A" id="pin3A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin3C" id="pin3C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin3D" id="pin3D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin12J" id="pin12J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin12G" id="pin12G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin12H" id="pin12H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin12F" id="pin12F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin12I" id="pin12I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin12C" id="pin12C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin12A" id="pin12A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin12D" id="pin12D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin12B" id="pin12B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin12E" id="pin12E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin24B" id="pin24B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin24C" id="pin24C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin24E" id="pin24E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin24D" id="pin24D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin24A" id="pin24A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin20G" id="pin20G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin20I" id="pin20I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin20J" id="pin20J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin20F" id="pin20F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin20H" id="pin20H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin8A" id="pin8A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin8C" id="pin8C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin8E" id="pin8E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin8D" id="pin8D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin8B" id="pin8B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin10C" id="pin10C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin10A" id="pin10A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin10E" id="pin10E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin10B" id="pin10B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin10D" id="pin10D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin13B" id="pin13B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin13E" id="pin13E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin13D" id="pin13D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin13C" id="pin13C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin13A" id="pin13A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin9A" id="pin9A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin9C" id="pin9C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin9B" id="pin9B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin9E" id="pin9E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin9D" id="pin9D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin11I" id="pin11I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin11H" id="pin11H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin11F" id="pin11F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin11J" id="pin11J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin11G" id="pin11G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin4G" id="pin4G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin4H" id="pin4H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin4F" id="pin4F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin4J" id="pin4J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin4I" id="pin4I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin27B" id="pin27B">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin27E" id="pin27E">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin27D" id="pin27D">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin27A" id="pin27A">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin27C" id="pin27C">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="pin24J" id="pin24J">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin24H" id="pin24H">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin24G" id="pin24G">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin24I" id="pin24I">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+  <connector name="pin24F" id="pin24F">
+   <part title="Half breadboard" label="Breadboard2" id="147930"/>
+  </connector>
+ </net>
+</netlist>
