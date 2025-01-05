@@ -87,7 +87,7 @@ La documentación completa está disponible en la carpeta `/docs`:
 ## 🔬 Simulaciones
 
 - [Simulación en Tinkercad](https://www.tinkercad.com/things/dYh0102oI5U-micro-robot-movil-seguir-de-luz)
-- [Video demostrativo en YouTube](https://youtube.com/watch?v=demo-robot-seguidor)
+- [Video demostrativo en YouTube](https://www.youtube.com/watch?v=fTKlbXQNJEY)
 
 ## 🤝 Contribuir
 
@@ -110,4 +110,4 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 Link del proyecto: [https://github.com/draexx/robot-seguidor-luz](https://github.com/draexx/robot-seguidor-luz)
 
 ---
-⌨️ con ❤️ por [Pedro_Carranza]
+⌨️ con ❤️ por [Pedro Carranza]
