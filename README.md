@@ -105,7 +105,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 📫 Contacto
 
-[Draexx] - [@twitter](https://twitter.com/draexx) - p.carranza.is@gmail.com
+[Draexx] - [@twitter](https://twitter.com/draexx) - contacto@pedrocarranza.com
 
 Link del proyecto: [https://github.com/draexx/robot-seguidor-luz](https://github.com/draexx/robot-seguidor-luz)
 
